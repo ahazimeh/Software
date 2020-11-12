@@ -1,0 +1,79 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 1s ease-in;
+}
+
+.app__header,
+.app__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*  Search bar */
+
+/* Current weather */
+/* .clear,.rain{
+  background-color: #9CCEF4;
+} */
+
+
+.cloud {
+  background-color: #9CCEF4;
+  
+}
+.rain {
+  background-color: #A2BAC0;
+  /* color: yellow; */
+  
+}
+.clear {
+  background-color: #2692E9;
+  /* color: yellow; */
+  
+}
+
+.clear,.rain,.cloud{
+  -webkit-transition-property: background-color transform -webkit-transform color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-property: background-color transform -webkit-transformv color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.cloud .body{
+  background-color: #9CCEF4;
+}
+.rain .body{
+  background-color: #A2BAC0;
+}
+.clear .body{
+  background-color: #2692E9;
+}
+.invis div:nth-child(2){
+  visibility: hidden;
+}
+.invis div:nth-child(3){
+  visibility: hidden;
+}
+
+
+
+
+
+
+/* rain */
+/* #6F84AB */
+/* #5468A9 */
+
+
+/* clear */
+/* #1B6CD4 */
+/* #1650BF */

@@ -1,0 +1,107 @@
+/* div {
+    border: 25px solid black;
+} */
+.cloud .search {
+  border: 20px solid #759EDA;
+  background-color: #759EDA;
+  
+  
+
+
+}
+.cloud #input-name{
+    background-color:#759EDA;
+    color:white;
+    border:none;
+    outline: 0;
+    font-family: "Raleway", sans-serif;
+    
+  }
+  /* #1B62C0 */
+  
+  .cloud button{
+    margin-left: 10px;
+    background-color: #5879C7;
+    border:0px;
+    padding:10px;
+    outline: 0;
+    font-family: "Raleway", sans-serif;
+    
+  }
+
+
+
+
+  .rain .search {
+    border: 20px solid #6F84AB;
+    background-color: #6F84AB;
+    
+  }
+  .rain #input-name{
+      background-color:#6F84AB;
+      color:white;
+      border:none;
+      outline: 0;
+      font-family: "Raleway", sans-serif;
+      
+    }
+    .rain button{
+      margin-left: 10px;
+      background-color: #5468A9;
+      border:0px;
+      padding:10px;
+      outline: 0;
+      font-family: "Raleway", sans-serif;
+      
+    }
+
+
+
+    .clear .search {
+        border: 20px solid #1B6CD4;
+        background-color: #1B6CD4;
+        
+      }
+      .clear #input-name{
+          background-color:#1B6CD4;
+          color:white;
+          border:none;
+          outline: 0;
+          font-family: "Raleway", sans-serif;
+          
+        }
+        .clear button{
+          margin-left: 10px;
+          background-color: #1650BF;
+          border:0px;
+          padding:10px;
+          outline: 0;
+          font-family: "Raleway", sans-serif;
+          
+        }
+
+
+        button,#input-name,.search{
+            -webkit-transition-property: background-color transform -webkit-transform color;
+            -webkit-transition-duration: 0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-property: background-color transform -webkit-transformv color;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        #input-name:focus{
+            border-bottom: 1px solid grey;
+          }
+
+
+
+
+
+          @media only screen and (max-width:500px){
+
+
+            .search{
+              display:flex;
+              justify-content: space-between;
+            }
+          }
